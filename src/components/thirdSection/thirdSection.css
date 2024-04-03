@@ -1,0 +1,12 @@
+.spriteContainer{
+    height: 209px;
+    width: 255px;
+    background:url("../../../public/spritesheet.png");
+    animation: run 1s steps(15) infinite;
+}
+
+@keyframes run {
+    100%{
+        background-position: 3825px 0;
+    }
+}

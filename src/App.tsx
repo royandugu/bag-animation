@@ -1,6 +1,7 @@
 import Lenis from '@studio-freight/lenis';
 import FirstSection from './components/firstSection/firstSection'
 import SecondSection from './components/secondSection/secondSection'
+import ThirdSection from './components/thirdSection/thirdSection';
 
 import { useState, useEffect } from 'react';
 
@@ -26,6 +27,7 @@ function App() {
     <>  
       <FirstSection/>
       <SecondSection/>
+      <ThirdSection/>
     </>
   )
 }
