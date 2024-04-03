@@ -1,0 +1,40 @@
+.topParent{
+    height:500vh;
+    background:blue;
+    position: relative;
+}
+.fixed{
+    position: fixed;
+    top:5%;
+    right:29%;
+}
+.doorNonAnimated{
+    background:red;
+    height:600px;
+    width:300px;
+    position: absolute;
+    right: 0;
+    bottom:0;
+    z-index: 0;
+}
+.doorAnimated{
+    background:blue;
+    height:600px;
+    width:300px;
+    position: absolute;
+    right: 0;
+    bottom:0;
+    z-index: 1;
+    transform-origin: left;
+    transition: .3s ease-in-out;
+}
+.openDoor{
+    transform: rotateY(80deg);
+}
+.initialContainer{
+    display: flex;
+    height:500vh;
+    justify-content: space-between;
+    background:yellow;
+    position: relative;
+}

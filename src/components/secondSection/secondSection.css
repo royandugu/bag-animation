@@ -1,0 +1,15 @@
+.secondContainer{
+    background:green;
+    height:500vh;
+    display: flex;
+    justify-content: space-between;
+}
+.secondContainer .doorBase{
+    background:black;
+    height:50px;
+    width:300px;
+    float:right;
+    transform-origin: top right;
+    position: absolute;
+    right: 0;
+}
